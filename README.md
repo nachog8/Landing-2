@@ -11,11 +11,11 @@ Este proyecto es una página web simple que utiliza Bootstrap para el diseño y 
 
 1. Clona el repositorio en tu máquina local:
    ```sh
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/nachog8/Landing-2.git
    ```
 2. Navega al directorio del proyecto:
    ```sh
-   cd tu-repositorio
+   cd Landing-2
    ```
 
 ## Ejecución
