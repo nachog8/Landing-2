@@ -16,4 +16,12 @@
         form.classList.add('was-validated')
       }, false)
     })
-  })()
+})()
+
+// Función para desplazarse hacia arriba
+function scrollToHeader() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
