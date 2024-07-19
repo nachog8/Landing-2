@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- Barra de Navegación -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#"><img src="./img/logo_cilsa.jpg" class="logo_cilsa" alt="CILSA Logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -18,13 +18,13 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav justify-content-center">
                 <li class="nav-item active mx-3">
-                    <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link section-link" href="#inicio">INICIO <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item mx-3">
-                    <a class="nav-link" href="#perfil">Perfiles</a>
+                    <a class="nav-link section-link" href="#perfil">PERFILES</a>
                 </li>
                 <li class="nav-item mx-3">
-                    <a class="nav-link" href="#contacto">Contacto</a>
+                    <a class="nav-link section-link" href="#contacto">CONTACTO</a>
                 </li>
             </ul>
         </div>
@@ -67,9 +67,9 @@
                 <div class="card">
                     <img src="/img/nacho.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Ignacio Javier Guridi</h5>
-                        <p class="card-text">Estudiante de 4° año de Ingenieria en Sistemas de Información.</p>
-                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#infoIgnacio">Mas Información</a>
+                        <h5 class="card-title text-white">Ignacio Javier Guridi</h5>
+                        <p class="card-text text-white">Estudiante de 4° año de Ingenieria en Sistemas de Información.</p>
+                        <a href="#" class="btn btn-color" data-toggle="modal" data-target="#infoIgnacio">Mas Información</a>
                     </div>
                 </div>
             </div>
@@ -77,9 +77,9 @@
                 <div class="card">
                     <img src="/img/sergio.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Sergio Alejandro Alvarez</h5>
-                        <p class="card-text">Tecnico Superior en Desarrollo de software.</p>
-                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#infoSergio">Mas Información</a>                 </div>
+                        <h5 class="card-title text-white">Sergio Alejandro Alvarez</h5>
+                        <p class="card-text text-white">Tecnico Superior en Desarrollo de software.</p>
+                        <a href="#" class="btn btn-color" data-toggle="modal" data-target="#infoSergio">Mas Información</a>                 </div>
                 </div>
             </div>
         </div>
@@ -90,16 +90,16 @@
         <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-            <h5 class="modal-title" id="infoIgnacioTitle">Ignacio Javier Guridi</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <h5 class="modal-title text-white" id="infoIgnacioTitle">Ignacio Javier Guridi</h5>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
             </div>
             <div class="modal-body">
             <ul>
-                <li>Edad: 23</li>
-                <li>Residencia: Villa María, Cordoba, Argentina</li>
-                <li>Tecnologias: HTML, CSS, JS, React, NodeJS, MySQL, MongoDB, Angular, Typescript, Python</li>
+                <li class="text-white">Edad: 23</li>
+                <li class="text-white">Residencia: Villa María, Cordoba, Argentina</li>
+                <li class="text-white">Tecnologias: HTML, CSS, JS, React, NodeJS, MySQL, MongoDB, Angular, Typescript, Python</li>
             </ul>
             </div>
             <div class="modal-footer">
@@ -112,16 +112,16 @@
         <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-            <h5 class="modal-title" id="infoIgnacioTitle">Sergio Alejandro Alvarez</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <h5 class="modal-title text-white" id="infoIgnacioTitle">Sergio Alejandro Alvarez</h5>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
             </div>
             <div class="modal-body">
                 <ul>
-                    <li>Edad: 30</li>
-                    <li>Residencia: Rosario, Santa Fe, Argentina</li>
-                    <li>Tecnologias: HTML, CSS , JS, Python, PostgreSQL, MySQL</li>
+                    <li class="text-white">Edad: 30</li>
+                    <li class="text-white">Residencia: Rosario, Santa Fe, Argentina</li>
+                    <li class="text-white">Tecnologias: HTML, CSS , JS, Python, PostgreSQL, MySQL</li>
                 </ul>
             </div>
             <div class="modal-footer">
@@ -135,7 +135,7 @@
         <section id="contact" class="mt-5 hide">
             <form class="row g-3 needs-validation" novalidate>
                 <div class="col-md-6">
-                    <label for="validationCustom01" class="form-label">Nombre</label>
+                    <label for="validationCustom01" class="form-label text-white">Nombre</label>
                     <input type="text" class="form-control" id="validationCustom01" value="" required>
                     <div class="invalid-feedback">
                         Ingrese su nombre
@@ -143,7 +143,7 @@
                 </div>
     
                 <div class="col-md-6">
-                    <label for="validationCustomUsername" class="form-label">Email</label>
+                    <label for="validationCustomUsername" class="form-label text-white">Email</label>
                     <div class="input-group has-validation">
                         <input type="email" class="form-control" id="validationCustomUsername"
                             aria-describedby="inputGroupPrepend" required>
@@ -154,28 +154,27 @@
                 </div>
     
                 <div class="col-12">
-                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <label for="exampleFormControlTextarea1" class="form-label text-white">Mensaje</label>
     
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
                     <div class="invalid-feedback">
                         Por favor indique un mansaje valido.
                     </div>
-    
                 </div>
     
                 <div class="col-12 mt-4">
-                    <button class="btn btn-primary" type="submit">Enviar</button>
+                    <button class="btn btn-color" type="submit">Enviar</button>
                 </div>
             </form>
         </section>
     </div>
 
     <!-- Footer -->
-    <footer class="bg-light text-center text-lg-start mt-4">
+    <footer class="footer text-center text-lg-start mt-4">
         <div class="container p-4">
             <div class="row">
                 <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Derechos y Creadores</h5>
+                    <h5 class="text-uppercase title_footer">Derechos y Creadores</h5>
                     <p>
                         &copy; 2024 Mi Página. Todos los derechos reservados.
                     </p>
@@ -184,39 +183,39 @@
                     </p>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Contactos</h5>
+                    <h5 class="text-uppercase title_footer">Contactos</h5>
                     <ul class="list-unstyled mb-0">
                         <li>
-                            <a href="mailto:nacho_g88@hotmail.com" class="text-dark">nacho_g88@hotmail.com</a>
+                            <a href="mailto:nacho_g88@hotmail.com" class="text-white">nacho_g88@hotmail.com</a>
                         </li>
                         <li>
-                            <a href="mailto:alvarez.94.sergio@gmail.com" class="text-dark">alvarez.94.sergio@gmail.com</a>
+                            <a href="mailto:alvarez.94.sergio@gmail.com" class="text-white">alvarez.94.sergio@gmail.com</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Redes Sociales</h5>
+                    <h5 class="text-uppercase title_footer">Redes Sociales</h5>
                     <ul class="list-unstyled mb-0">
                         <li>
-                            <a href="https://www.linkedin.com/in/guridi-ignacio/" class="text-dark text-decoration-none">
-                                <i class="fab fa-linkedin" style="font-size: 24px;"></i>
+                            <a href="https://www.linkedin.com/in/guridi-ignacio/" class="text-dark text-decoration-none" target="_blank">
+                                <i class="fab fa-linkedin text-white" style="font-size: 24px;"></i>
                             </a>
-                            <a href="https://www.instagram.com/nachog8" class="text-dark text-decoration-none">
-                                <i class="fab fa-instagram" style="font-size: 24px;"></i>
+                            <a href="https://www.instagram.com/nachog8" class="text-dark text-decoration-none" target="_blank">
+                                <i class="fab fa-instagram text-white" style="font-size: 24px;"></i>
                             </a>
-                            <a href="https://github.com/nachog8" class="text-dark text-decoration-none">
-                                <i class="fab fa-github" style="font-size: 24px;"></i>
+                            <a href="https://github.com/nachog8" class="text-dark text-decoration-none" target="_blank">
+                                <i class="fab fa-github text-white" style="font-size: 24px;"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/sergio-alejandro-alvarez/" class="text-dark text-decoration-none">
-                                <i class="fab fa-linkedin" style="font-size: 24px;"></i>
+                            <a href="https://www.linkedin.com/in/sergio-alejandro-alvarez/" class="text-dark text-decoration-none" target="_blank">
+                                <i class="fab fa-linkedin text-white" style="font-size: 24px;"></i>
                             </a>
-                            <a href="https://www.instagram.com/tu_usuario" class="text-dark text-decoration-none">
-                                <i class="fab fa-instagram" style="font-size: 24px;"></i>
+                            <a href="https://www.instagram.com/tu_usuario" class="text-dark text-decoration-none" target="_blank">
+                                <i class="fab fa-instagram text-white" style="font-size: 24px;"></i>
                             </a>
-                            <a href="https://github.com/tu_usuario" class="text-dark text-decoration-none">
-                                <i class="fab fa-github" style="font-size: 24px;"></i>
+                            <a href="https://github.com/tu_usuario" class="text-dark text-decoration-none" target="_blank">
+                                <i class="fab fa-github text-white" style="font-size: 24px;"></i>
                             </a>
                         </li>
                     </ul>
