@@ -73,21 +73,42 @@
 
     <!-- Formulario de Contacto -->
     <div id="contacto" class="container mt-4">
-        <form>
-            <div class="form-group">
-                <label for="nombre">Nombre</label>
-                <input type="text" class="form-control" id="nombre" placeholder="Nombre">
-            </div>
-            <div class="form-group">
-                <label for="email">Correo Electrónico</label>
-                <input type="email" class="form-control" id="email" placeholder="Correo Electrónico">
-            </div>
-            <div class="form-group">
-                <label for="mensaje">Mensaje</label>
-                <textarea class="form-control" id="mensaje" rows="3" placeholder="Mensaje"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
+        <section id="contact" class="mt-5 hide">
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-6">
+                    <label for="validationCustom01" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="validationCustom01" value="" required>
+                    <div class="invalid-feedback">
+                        Ingrese su nombre
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <label for="validationCustomUsername" class="form-label">Email</label>
+                    <div class="input-group has-validation">
+                        <input type="email" class="form-control" id="validationCustomUsername"
+                            aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                            Por favor indique un email valido.
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+    
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                    <div class="invalid-feedback">
+                        Por favor indique un mansaje valido.
+                    </div>
+    
+                </div>
+    
+                <div class="col-12 mt-4">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
     </div>
 
     <!-- Footer -->
@@ -129,7 +150,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/maria" class="text-dark text-decoration-none">
+                            <a href="https://www.linkedin.com/in/sergio-alejandro-alvarez/" class="text-dark text-decoration-none">
                                 <i class="fab fa-linkedin" style="font-size: 24px;"></i>
                             </a>
                             <a href="https://www.instagram.com/tu_usuario" class="text-dark text-decoration-none">
@@ -148,5 +169,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
